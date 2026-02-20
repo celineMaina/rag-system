@@ -28,9 +28,12 @@ Implementing a RAG system eliminates the need to retrain LLM models with current
 
 
 ### How Does RAG work?
+Without RAG, an LLM will provide a response based on its training data, and cannot access and reference domain-specific or proprietary internal documents. With RAG, we introduce retrieval and the LLM must first pull information from a relevant source before generating a response. 
 
-In our scenario, when you prompt the LLM chatbot to help you write a proposal, it will first search the approved knowledge base which contains your company's guidelines on proposal structure/format, information about the project and other internal documents for reference.
+In our scenario, when you prompt the LLM chatbot to help you write a proposal, it will first search the approved knowledge base which may contain your company's guidelines on proposal structure/format, information about the project and other internal documents for reference.
 
 The workflow becomes:
 
 Query → Retrieve relevant documents → Reference the information within the documents → Generate a response.
+
+RAG turns a general-purpose LLM into a domain-specific assistant, enabling it to give precise responses and minimize hallucinations. 
