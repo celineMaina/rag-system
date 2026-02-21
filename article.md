@@ -15,7 +15,7 @@ There are techniques to improve LLM responses such as fine-tuning which can be e
 
 This is where RAG comes in. From the name, we can deduce that it is a framework that enhances/optimizes the output capabilities of an LLM. It does this by first referencing an authorized knowledge base such as internal policy documents, before generating a response. This ensures that the LLM output is up to date and relevant to you. 
 
-### Why RAG is important.
+### Why RAG is Important.
 Though LLMs are powerful and capable of generating text that is almost indistinguishable from human-written text, their outputs can be unpredictable and inaccurate. LLMs face challenges such as:
 
 - Hallucinations i.e. presenting false information as facts.
@@ -27,7 +27,7 @@ RAG is one technique that can be applied to solve these challenges. A RAG system
 Implementing a RAG system eliminates the need to retrain LLM models with current data all the time, which is very expensive and time-consuming. It ensures that the model remains current, accurate and relevant to your specific context. Additionally, it gives users more control over the generated outputs and the ability to implement guardrails.
 
 
-### How Does RAG work?
+### How Does RAG Work?
 Without RAG, an LLM will provide a response based on its training data, and cannot access and reference domain-specific or proprietary internal documents. With RAG, we introduce retrieval and the LLM must first pull information from a relevant source before generating a response. 
 
 In our scenario, when you prompt the LLM chatbot to help you write a proposal, it will first search the approved knowledge base which may contain your company's guidelines on proposal structure/format, information about the project and other internal documents for reference.
