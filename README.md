@@ -16,8 +16,7 @@ First, an in-depth, more technical explanation of how RAG works.
 A simple RAG system connects an LLM to external data sources such as policy documents and company databases, allowing it to answer user questions with relevant, up-to-date information. It works by embedding the reference documents, searching the documents for semantic relevance to the query, then using the retrieved documents to answer the query. 
 
 
-| ![Simple RAG pipeline](RAG-Applications.webp) |
-|:--:|
+![Simple RAG pipeline](RAG-Applications.webp)
 <sub> *Credit: [Writer's Room](https://writer.com/blog/retrieval-augmented-generation-rag/)* </sub>
 
 
