@@ -18,7 +18,7 @@ A simple RAG system connects an LLM to external data sources such as policy docu
 
 | ![Simple RAG pipeline](RAG-Applications.webp) |
 |:--:|
-| *Credit: [Writer's Room](https://writer.com/blog/retrieval-augmented-generation-rag/)* |
+<sub> *Credit: [Writer's Room](https://writer.com/blog/retrieval-augmented-generation-rag/)* </sub>
 
 
 
