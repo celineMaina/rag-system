@@ -2,6 +2,8 @@
 
 **Practical Example of Adding RAG to an LLM.**
 
+---
+
 ### Background
 In this project, I demonstrate how to implement a RAG system that answers user's questions about the Kenyan Constitution (2010 version), and Finance Bill 2025, with context retrieved from the knowledge base.
 
